@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ecommerce website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- SWIPPER JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- TOASTIFY -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <!-- OFCANVAS MENU -->
+      <div class="offcanvas">
+        <div class="offcanvas-top">
+          <!-- Close Offcanvas -->
+          <i
+            class="fa-solid fa-xmark close-offcanvas"
+            style="font-size: 32px"
+          ></i>
+          <a href="/">.Store <span class="circle"></span></a>
+        </div>
+        <ul class="offcanvas-middle">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li>
+            <a href="#">
+              Women's
+              <i class="fa-sharp fa-solid fa-chevron-down"></i>
+            </a>
+            <div class="submenu">
+              <ul>
+                <li><a href="#">WOMEN'S CLOTHING</a></li>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops and T-Shirts</a></li>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Pants</a></li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">Swimwear</a></li>
+                <li><a href="#">Pants</a></li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">Tops and T-Shirts</a></li>
+                <li><a href="#">Swimwear</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">JEWELRY</a></li>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Tops and T-Shirts</a></li>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Pants</a></li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">Body Jewelry</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">TOP BRANDS</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Zara</a></li>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">H&M</a></li>
+                <li><a href="#">Hurley</a></li>
+                <li><a href="#">Dockers</a></li>
+                <li>
+                  <span>
+                    View All
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </li>
+              </ul>
+              <div class="submenu-advert">
+                <img
+                  src="https://images.unsplash.com/photo-1543996469-600fbadfc1e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt=""
+                />
+                <div class="submenu-advert-wanted">
+                  <h3>Best Sellers</h3>
+                  <button>Order Now</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Men</a></li>
+          <li>
+            <a href="#" class="for-count">
+              Sports
+              <span class="count">New</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="header-left">
+        <div class="header-left-logo">
+          <i class="fa-solid fa-bars open-offcanvas"></i>
+          <a href="/">.Store <span class="circle"></span></a>
+        </div>
+        <div class="left-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li>
+            <a href="#">Women's</a>
+            <div class="for-submenu">
+              <i class="fa-sharp fa-solid fa-chevron-down"></i>
+              <div class="submenu">
+                <ul>
+                  <li><a href="#">WOMEN'S CLOTHING</a></li>
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">Tops and T-Shirts</a></li>
+                  <li><a href="#">Jackets</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Shorts</a></li>
+                  <li><a href="#">Swimwear</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Shorts</a></li>
+                  <li><a href="#">Tops and T-Shirts</a></li>
+                  <li><a href="#">Swimwear</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">JEWELRY</a></li>
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">Tops and T-Shirts</a></li>
+                  <li><a href="#">Jackets</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Shorts</a></li>
+                  <li><a href="#">Body Jewelry</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">TOP BRANDS</a></li>
+                  <li><a href="#">Nike</a></li>
+                  <li><a href="#">Zara</a></li>
+                  <li><a href="#">Adidas</a></li>
+                  <li><a href="#">H&M</a></li>
+                  <li><a href="#">Hurley</a></li>
+                  <li><a href="#">Dockers</a></li>
+                  <li>
+                    <span>
+                      View All
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                  </li>
+                </ul>
+                <div class="submenu-advert">
+                  <img
+                    src="https://as2.ftcdn.net/v2/jpg/06/39/42/59/1000_F_639425965_ucaZNqQz6A1323fJ7o6Wvtwk736d8VF6.jpg"
+                    alt=""
+                  />
+                  <div class="submenu-advert-wanted">
+                    <h3>Best Sellers</h3>
+                    <button>Place an Order</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Men</a></li>
+          <li>
+            <a href="#" class="for-count">
+              Sports
+              <span class="count">New</span>
+            </a>
+          </li>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <div class="header-right-price">
+          <span>Total</span>
+          <span class="total-price">$0</span>
+        </div>
+        <div class="header-right-favorite">
+          <i class="fa-solid fa-heart"></i>
+          <span class="count">0</span>
+        </div>
+        <div class="header-right-card">
+          <i class="fa-solid fa-cart-shopping open-card"></i>
+          <span class="count count-quantity">0</span>
+          <!-- When you click on the open-basket icon, it will open the card structure with the class name .mycard -->
+          <div class="mycard">
+            <!-- 
+            <div class="card">
+              <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="" />
+              <div class="mycard-price">
+                <p>Product</p>
+                <span>$price x quantity</span>
+              </div>
+              <div class="mycard-total">total</div>
+            </div>
+            -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HEADER MAIN -->
+    <div class="header-main">
+      <div class="header-main-left">
+        <div class="department">
+          <p>Products</p>
+          <span>1742 products</span>
+        </div>
+        <div class="for-mainmenu">
+          <i class="fa-solid fa-bars"></i>
+          <div class="mainmenu">
+            <div class="mainmenus">
+              <img
+                src="https://www.svgrepo.com/show/427285/best-product-certificate.svg"
+                width="28"
+                alt=""
+              />
+              <span>Beauty</span>
+              <div class="for-mainmenus-side">
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="mainmenus-side">
+                  <ul>
+                    <li><a href="#">Makeup</a></li>
+                    <li><a href="#">Skin Care</a></li>
+                    <li><a href="#">Hair Care</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Foot</a></li>
+                    <li><a href="#">Hand Care</a></li>
+                    <li><a href="#">Makeup</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mainmenus">
+              <img
+                src="https://www.svgrepo.com/show/381353/electronic-powerbank-electric.svg"
+                width="28"
+                alt=""
+              />
+              <span>Electronics</span>
+              <div class="for-mainmenus-side">
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="mainmenus-side">
+                  <ul>
+                    <li><a href="#">Makeup</a></li>
+                    <li><a href="#">Skin Care</a></li>
+                    <li><a href="#">Hair Care</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Foot</a></li>
+                    <li><a href="#">Hand Care</a></li>
+                    <li><a href="#">Makeup</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mainmenus">
+              <img
+                src="https://www.svgrepo.com/show/513111/woman.svg"
+                width="28"
+                alt=""
+              />
+              <span>Women's Fashion</span>
+              <div class="for-mainmenus-side">
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="mainmenus-side">
+                  <ul>
+                    <li><a href="#">Makeup</a></li>
+                    <li><a href="#">Skin Care</a></li>
+                    <li><a href="#">Hair Care</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Foot</a></li>
+                    <li><a href="#">Hand Care</a></li>
+                    <li><a href="#">Makeup</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mainmenus">
+              <img
+                src="https://www.svgrepo.com/show/494429/man-suit-work.svg"
+                width="28"
+                alt=""
+              />
+              <span>Men's Fashion</span>
+            </div>
+
+            <div class="mainmenus">
+              <img
+                src="https://www.svgrepo.com/show/483511/girl-2.svg"
+                width="28"
+                alt=""
+              />
+              <span>Girl's Fashion</span>
+            </div>
+
+            <div class="mainmenus">
+              <img
+                src="https://www.svgrepo.com/show/429873/health-care-love.svg"
+                width="28"
+                alt=""
+              />
+              <span>Health & Household</span>
+            </div>
+
+            <div class="mainmenus">
+              <img
+                src="https://www.svgrepo.com/show/497392/pet.svg"
+                width="28"
+                alt=""
+              />
+              <span>Pet Supplies</span>
+              <div class="for-mainmenus-side">
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="mainmenus-side">
+                  <ul>
+                    <li><a href="#">Makeup</a></li>
+                    <li><a href="#">Skin Care</a></li>
+                    <li><a href="#">Hair Care</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Foot</a></li>
+                    <li><a href="#">Hand Care</a></li>
+                    <li><a href="#">Makeup</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mainmenus">
+              <img
+                src="https://www.svgrepo.com/show/29936/ball-for-sports.svg"
+                width="28"
+                alt=""
+              />
+              <span>Sports</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-main-right">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search for products" />
+        <button>SEARCH</button>
+      </div>
+    </div>
+
+    <!-- SLIDER -->
+    <div class="slider">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./assets/slider-1.png" alt="" />
+            <h1>Don't Miss This Offer Only This Week</h1>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/slider-2.webp" alt="" />
+            <h1>Exclusive to Store</h1>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/slider-3.png" alt="" />
+            <h1>Up to $15 Off Cart</h1>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/slider-4.png" alt="" />
+            <h1>Customized for You</h1>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!-- PRODUCT -->
+    <div class="product">
+      <div class="product-title">POPULAR PRODUCTS</div>
+      <div class="product-card">
+        <div class="product-card-leftside">
+          <!-- <div class="card">
+            <img src="/assets/check.gif" alt="" />
+            <div class="card-rate">
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <span>rating</span>
+            </div>
+            <h3>product title</h3>
+            <div class="card-process">
+              <i class="fa-sharp fa-solid fa-heart"></i>
+              <button>price</button>
+            </div>
+          </div> -->
+        </div>
+        <div class="product-card-rightside">
+          <div class="filter-options">
+            <h3>FILTER</h3>
+            <div class="category-filter">
+              <label for="category-filter">Category</label>
+              <select id="category-filter">
+                <option value="allCategory" selected>All</option>
+                <option value="electronics">Electronics</option>
+                <option value="jewelry">Jewelry</option>
+                <option value="men's clothing">Men's Clothing</option>
+                <option value="women's clothing">Women's Clothing</option>
+              </select>
+            </div>
+            <div class="price-filter">
+              <label for="price-filter">Price Range</label>
+              <select id="price-filter">
+                <option value="allPrice" selected>All</option>
+                <option value="0-10">$0-$10</option>
+                <option value="10-100">$10-$100</option>
+                <option value="100-500">$100-$500</option>
+                <option value="500-">Up to $500</option>
+              </select>
+            </div>
+            <div class="rate-filter">
+              <label for="rate-filter">Product Ratings:</label>
+              <label>
+                <input
+                  type="radio"
+                  name="rate-filter"
+                  value="allRate"
+                  checked
+                />
+                All
+              </label>
+              <label>
+                <input type="radio" name="rate-filter" value="1-5" />
+                <i class="fa-solid fa-star"></i> 1 star and above
+              </label>
+              <label>
+                <input type="radio" name="rate-filter" value="2-5" />
+                <i class="fa-solid fa-star"></i> 2 stars and above
+              </label>
+              <label>
+                <input type="radio" name="rate-filter" value="3-5" />
+                <i class="fa-solid fa-star"></i> 3 stars and above
+              </label>
+              <label>
+                <input type="radio" name="rate-filter" value="4-5" />
+                <i class="fa-solid fa-star"></i> 4 stars and above
+              </label>
+            </div>
+            <button id="apply-filter">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HELP PROCESS -->
+    <div class="help">
+      <div class="help-chat">
+        <div class="help-chat-left">
+          <p>Hello, how can I assist you?</p>
+        </div>
+        <!-- <div class="help-chat-right">
+          <p>Hello</p>
+        </div> -->
+      </div>
+      <div class="help-process">
+        <i class="fa-solid fa-comment-dots"></i>
+        <input type="text" placeholder="How can we assist you?" />
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-left">
+        <div class="footer-lefts">
+          <hr />
+          <h3>Home</h3>
+          <p>Products</p>
+          <p>About Us</p>
+          <p>Contact</p>
+        </div>
+        <div class="footer-lefts">
+          <hr />
+          <h3>Store</h3>
+          <p>Security Notice</p>
+          <p>Location and Hours</p>
+          <p>Rentals</p>
+          <p>Privacy Notice</p>
+        </div>
+        <div class="footer-lefts">
+          <hr />
+          <h3>Store</h3>
+          <p><i class="fa fa-phone"></i> (123) 456-7890</p>
+          <p><i class="fa-solid fa-circle-info"></i> info@example.com</p>
+          <p>
+            <i class="fa fa-map-marker"></i> 1234 Street Name, City Name, United
+            States
+          </p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-right-logo">
+          <h1>Platforms</h1>
+        </div>
+        <div class="footer-right-social">
+          <i class="fa-brands fa-facebook fa-lg"></i>
+          <i class="fa-brands fa-instagram fa-lg"></i>
+          <i class="fa-brands fa-twitter fa-lg"></i>
+          <i class="fa-brands fa-youtube fa-lg"></i>
+        </div>
+      </div>
+    </footer>
+    <div class="rights">
+      <p>©2021 Music Store</p>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+</html>

@@ -1,0 +1,29 @@
+@mixin tablet {
+  @media (min-width: 599px) and (max-width: 830px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+
+@mixin sayac {
+  position: absolute;
+  right: -46px;
+  top: -12px;
+  padding: 1px 3px;
+  background-color: rgb(251, 0, 255);
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+@mixin btn-hover {
+  &:hover {
+    transform: scale(1.1);
+    transition: ease 0.7s;
+  }
+}
